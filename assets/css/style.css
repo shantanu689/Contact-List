@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+#heading {
+  text-align: center;
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact {
+  list-style: none;
+  background-color: lightblue;
+  padding: 1%;
+  margin-bottom: 1%;
+  width: 450px;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-card:hover {
+  justify-content: space-between;
+  background-color: lightskyblue;
+}
+input[type="text"] {
+  border: 0;
+  border-bottom: solid 2px black;
+}
+button[type="submit"] {
+  padding: 1%;
+  border-radius: 100px;
+}
+form {
+  text-align: center;
+  margin: 0 auto;
+}
